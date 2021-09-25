@@ -1,18 +1,38 @@
-<template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+<template lang='pug'>
+  MainPainel
 </template>
-
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import MainPainel from '../components/MainPainel.vue';
 
 export default {
-  name: 'Home',
   components: {
-    HelloWorld
-  }
-}
+    MainPainel,
+  },
+
+  data() {
+
+    return {};
+
+  },
+
+};
 </script>
+<style>
+  ::-webkit-scrollbar {
+    width: 14px;
+  }
+
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #2b3a54;
+    border-radius: 3px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #2b3a54;
+  }
+</style>
