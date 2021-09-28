@@ -17,7 +17,7 @@ div(style='background-color: #f1f4ff;')
     b-col(xl='11', md='11' lg='11')
       Indicators
       b-row(style='margin-top:20px')
-        h2 CorpClub
+        h2 Comparativos
         b-col(cols=12)
           b-row
             b-col
